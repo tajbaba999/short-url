@@ -1,0 +1,42 @@
+# General
+node_modules/
+build/
+dist/
+.env
+
+# Logs and databases
+log/
+logs/
+*.log
+*.sqlite
+*.db
+
+# Dependency lock files
+yarn.lock
+package-lock.json
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Compiled binary files
+*.pyc
+*.pyo
+__pycache__/
+*.db
+*.sqlite
+
+# Environment-specific config files
+.env.local
+.env.*.local
+
+# API keys and secrets (never store these in your repo)
+.env.production
+
+# Backend specific
+*.pid
+*.log
